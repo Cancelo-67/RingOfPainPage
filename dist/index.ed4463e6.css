@@ -1,0 +1,129 @@
+* {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  list-style: none;
+}
+
+header {
+  min-height: 10vh;
+  background-color: #000;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+header a img {
+  width: 104px;
+  height: 87px;
+}
+
+header nav {
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+header nav ul {
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 10%;
+  display: flex;
+}
+
+.boton_personalizado {
+  color: #fff;
+  background-color: #000;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.boton_personalizado:hover {
+  color: #000;
+  background-color: #ffc300;
+}
+
+.boton_personalizado:active {
+  position: relative;
+  top: 1px;
+}
+
+.a_imagen {
+  justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  display: flex;
+}
+
+.texto_main {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+}
+
+main {
+  height: 100%;
+  min-height: 80vh;
+  background-image: url("fondo.d749cfc8.jpg");
+}
+
+main article {
+  justify-content: center;
+  display: flex;
+}
+
+footer {
+  min-height: 10vh;
+  background-color: #000;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+footer nav {
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+footer nav ul:first-child {
+  width: 6%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 30px;
+  display: flex;
+}
+
+footer nav .segundoul_footer {
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border: 3px solid #363636;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=index.ed4463e6.css.map */
