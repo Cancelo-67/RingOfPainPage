@@ -100,13 +100,9 @@ main {
   background-image: url("../img/fondo.jpg");
 }
 
-main article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+main article ul a img {
+  width: 295px;
+  height: 395px;
 }
 
 footer {
@@ -180,4 +176,4 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
   border: 3px solid #363636;
 }
-/*# sourceMappingURL=style_index.css.map */
+/*# sourceMappingURL=style_iniciosesion.css.map */

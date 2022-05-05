@@ -100,13 +100,46 @@ main {
   background-image: url("../img/fondo.jpg");
 }
 
-main article {
+main nav {
+  display: block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+main nav ul:first-child {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 5%;
+}
+
+main nav .ulsegundo_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 7% 10% 0 10%;
+}
+
+main nav .ulsegundo_main li a img {
+  width: 200px;
+  height: 210px;
 }
 
 footer {
@@ -180,4 +213,4 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
   border: 3px solid #363636;
 }
-/*# sourceMappingURL=style_index.css.map */
+/*# sourceMappingURL=style_cartas.css.map */
