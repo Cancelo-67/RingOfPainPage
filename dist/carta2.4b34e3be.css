@@ -74,9 +74,35 @@ main {
   background-image: url("fondo.d749cfc8.jpg");
 }
 
-main article ul a img {
-  width: 295px;
-  height: 395px;
+main article {
+  min-height: 50vh;
+  min-width: 50vh;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+main article :first-child {
+  flex-direction: column;
+  display: flex;
+}
+
+main article :first-child a {
+  margin-top: 40%;
+}
+
+main article :first-child a img {
+  width: 250px;
+  height: 300px;
+}
+
+main article :nth-child(2) {
+  flex-direction: column;
+  display: flex;
+}
+
+main article :nth-child(2) li {
+  margin-top: 30%;
 }
 
 footer {
